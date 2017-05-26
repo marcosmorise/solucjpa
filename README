@@ -1,0 +1,24 @@
+# solucjpa
+                          SoLUC JPA 0.1 - 2017-05-22
+
+SoLUC JPA is a easy and lightweight persistence API written in Java that uses 
+JPA Annotations to map objects with relational database tables and runs under 
+JDBC.
+
+Is developed using Reflection and Annotations to compose SQL commands, supports:
+- Types - Boolean, Byte, Short, Integer, Long, Float, Double, Character, String,
+          Enum, Date, Blob, List and Entity annotated Classes
+- Identity generated values
+- OneToMany composition with update and delete cascade
+- ManyToOne agregation with delete cascade
+
+Actually supports only Apache Derby Database SQL dialect, but with community
+contribution this project will evolve and in the future will supports others SQL 
+dialects.
+
+The source-code are simple and commented, to implement others SQL dialects,
+is only edit EntityManager.java file and modify createTable() and insert()
+methods in the GeneratedValue annotation parts, other methods uses standard SQL 
+dialect and no need to be edited.
+
+Marcos Morise
