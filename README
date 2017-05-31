@@ -7,14 +7,14 @@ JDBC.
 
 Is developed using Reflection and Annotations to compose SQL commands, supports:
 - Types - Boolean, Byte, Short, Integer, Long, Float, Double, Character, String,
-          Enum, Date, Blob, List and Entity annotated Classes
+          Enum, Date, Blob, List and Entity annotated classes
 - Identity generated values
-- OneToMany composition with update and delete cascade
-- ManyToOne agregation with delete cascade
+- OneToMany composition with insert, update and delete on cascade
+- ManyToOne agregation with agregated delete on cascade
 
-Actually supports only Apache Derby Database SQL dialect, but with community
-contribution this project will evolve and in the future will supports others SQL 
-dialects.
+Actually supports only Apache Derby, HSQLDB and MySQL Databases SQL dialect, but 
+with community contribution this project will evolve and in the future will 
+supports others SQL dialects.
 
 The source-code are simple and commented, to implement others SQL dialects,
 is only edit EntityManager.java file and modify createTable() and insert()
