@@ -15,7 +15,8 @@ import java.util.Date;
 import java.util.List;
 
 /**
- *
+ * @since 2017-05-31
+ * @version 1.0
  * @author marcos morise
  */
 public abstract class EntityManager {
