@@ -1,5 +1,5 @@
 # solucjpa
-                          SoLUC JPA 0.1 - 2017-05-22
+                          SoLUC JPA 1.0 - 2017-05-31
 
 SoLUC JPA is a easy and lightweight persistence API written in Java that uses 
 JPA Annotations to map objects with relational database tables and runs under 
