@@ -1,0 +1,10 @@
+SolucJPA
+(c) Copyright 2017~ Marcos Morise. Todos os direitos reservados
+Criado por Marcos Morise
+
+Mantido pelo Projeto SoLUC - Software Livre Unindo Conhecimento
+
+site: http://soluc.org
+contato: org.soluc@gmail.com
+
+Apache Derby under Apache License
